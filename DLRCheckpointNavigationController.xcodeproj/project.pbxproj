@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		439373391A851E3900A552D5 /* DLRCheckpointNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 439373381A851E3900A552D5 /* DLRCheckpointNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4393733F1A851E3900A552D5 /* DLRCheckpointNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439373331A851E3900A552D5 /* DLRCheckpointNavigationController.framework */; };
+		439373861A8522A600A552D5 /* DLRCheckpointNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 439373841A8522A600A552D5 /* DLRCheckpointNavigationControllerTests.m */; };
+		439373871A8522A600A552D5 /* DLRCheckpointPushSegueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 439373851A8522A600A552D5 /* DLRCheckpointPushSegueTests.m */; };
+		4393738D1A8522C800A552D5 /* DLRCheckpointNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 439373891A8522C800A552D5 /* DLRCheckpointNavigationController.h */; };
+		4393738E1A8522C800A552D5 /* DLRCheckpointNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4393738A1A8522C800A552D5 /* DLRCheckpointNavigationController.m */; };
+		4393738F1A8522C800A552D5 /* DLRCheckpointPushSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4393738B1A8522C800A552D5 /* DLRCheckpointPushSegue.h */; };
+		439373901A8522C800A552D5 /* DLRCheckpointPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4393738C1A8522C800A552D5 /* DLRCheckpointPushSegue.m */; };
+		43BEFA461A8A6512008E2156 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BEFA451A8A6512008E2156 /* main.m */; };
+		43BEFA491A8A6512008E2156 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BEFA481A8A6512008E2156 /* AppDelegate.m */; };
+		43BEFA4F1A8A6512008E2156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43BEFA4D1A8A6512008E2156 /* Main.storyboard */; };
+		43BEFA511A8A6512008E2156 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BEFA501A8A6512008E2156 /* Images.xcassets */; };
+		43BEFA541A8A6512008E2156 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43BEFA521A8A6512008E2156 /* LaunchScreen.xib */; };
+		43BEFA6D1A8A7AF6008E2156 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BEFA6C1A8A7AF6008E2156 /* ViewController.m */; };
+		43BEFA731A8A8409008E2156 /* DLRCheckpointNavigationController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439373331A851E3900A552D5 /* DLRCheckpointNavigationController.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		439373401A851E3900A552D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4393732A1A851E3900A552D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 439373321A851E3900A552D5;
+			remoteInfo = DLRCheckpointNavigationController;
+		};
+		43BEFA671A8A653F008E2156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4393732A1A851E3900A552D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43BEFA401A8A6512008E2156;
+			remoteInfo = DLRCheckpointNavigationControllerExampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		432270151A8545C400EC6EED /* DLRCheckpointNavigationController.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DLRCheckpointNavigationController.podspec; sourceTree = "<group>"; };
+		432270161A8545C400EC6EED /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		432270171A8545C400EC6EED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		439373331A851E3900A552D5 /* DLRCheckpointNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLRCheckpointNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		439373371A851E3900A552D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439373381A851E3900A552D5 /* DLRCheckpointNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLRCheckpointNavigationController.h; sourceTree = "<group>"; };
+		4393733E1A851E3900A552D5 /* DLRCheckpointNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLRCheckpointNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		439373441A851E3900A552D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		439373841A8522A600A552D5 /* DLRCheckpointNavigationControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRCheckpointNavigationControllerTests.m; sourceTree = "<group>"; };
+		439373851A8522A600A552D5 /* DLRCheckpointPushSegueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRCheckpointPushSegueTests.m; sourceTree = "<group>"; };
+		439373891A8522C800A552D5 /* DLRCheckpointNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRCheckpointNavigationController.h; sourceTree = "<group>"; };
+		4393738A1A8522C800A552D5 /* DLRCheckpointNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRCheckpointNavigationController.m; sourceTree = "<group>"; };
+		4393738B1A8522C800A552D5 /* DLRCheckpointPushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRCheckpointPushSegue.h; sourceTree = "<group>"; };
+		4393738C1A8522C800A552D5 /* DLRCheckpointPushSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRCheckpointPushSegue.m; sourceTree = "<group>"; };
+		43BEFA411A8A6512008E2156 /* DLRCheckpointNavigationControllerExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLRCheckpointNavigationControllerExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BEFA441A8A6512008E2156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43BEFA451A8A6512008E2156 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43BEFA471A8A6512008E2156 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43BEFA481A8A6512008E2156 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43BEFA4E1A8A6512008E2156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43BEFA501A8A6512008E2156 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43BEFA531A8A6512008E2156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		43BEFA6B1A8A7AF6008E2156 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43BEFA6C1A8A7AF6008E2156 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4393732F1A851E3900A552D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4393733B1A851E3900A552D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4393733F1A851E3900A552D5 /* DLRCheckpointNavigationController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BEFA3E1A8A6512008E2156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BEFA731A8A8409008E2156 /* DLRCheckpointNavigationController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		432270141A8545B400EC6EED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				432270151A8545C400EC6EED /* DLRCheckpointNavigationController.podspec */,
+				432270161A8545C400EC6EED /* LICENSE */,
+				432270171A8545C400EC6EED /* README.md */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		439373291A851E3900A552D5 = {
+			isa = PBXGroup;
+			children = (
+				439373351A851E3900A552D5 /* DLRCheckpointNavigationController */,
+				439373421A851E3900A552D5 /* DLRCheckpointNavigationControllerTests */,
+				43BEFA421A8A6512008E2156 /* DLRCheckpointNavigationControllerExampleApp */,
+				439373341A851E3900A552D5 /* Products */,
+				432270141A8545B400EC6EED /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		439373341A851E3900A552D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				439373331A851E3900A552D5 /* DLRCheckpointNavigationController.framework */,
+				4393733E1A851E3900A552D5 /* DLRCheckpointNavigationControllerTests.xctest */,
+				43BEFA411A8A6512008E2156 /* DLRCheckpointNavigationControllerExampleApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		439373351A851E3900A552D5 /* DLRCheckpointNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				439373881A8522B400A552D5 /* Checkpoint */,
+				439373361A851E3900A552D5 /* Supporting Files */,
+				439373381A851E3900A552D5 /* DLRCheckpointNavigationController.h */,
+			);
+			path = DLRCheckpointNavigationController;
+			sourceTree = "<group>";
+		};
+		439373361A851E3900A552D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				439373371A851E3900A552D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		439373421A851E3900A552D5 /* DLRCheckpointNavigationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				439373831A85229600A552D5 /* Checkpoint Tests */,
+				439373431A851E3900A552D5 /* Supporting Files */,
+			);
+			path = DLRCheckpointNavigationControllerTests;
+			sourceTree = "<group>";
+		};
+		439373431A851E3900A552D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				439373441A851E3900A552D5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		439373831A85229600A552D5 /* Checkpoint Tests */ = {
+			isa = PBXGroup;
+			children = (
+				439373841A8522A600A552D5 /* DLRCheckpointNavigationControllerTests.m */,
+				439373851A8522A600A552D5 /* DLRCheckpointPushSegueTests.m */,
+			);
+			name = "Checkpoint Tests";
+			path = source;
+			sourceTree = "<group>";
+		};
+		439373881A8522B400A552D5 /* Checkpoint */ = {
+			isa = PBXGroup;
+			children = (
+				439373891A8522C800A552D5 /* DLRCheckpointNavigationController.h */,
+				4393738A1A8522C800A552D5 /* DLRCheckpointNavigationController.m */,
+				4393738B1A8522C800A552D5 /* DLRCheckpointPushSegue.h */,
+				4393738C1A8522C800A552D5 /* DLRCheckpointPushSegue.m */,
+			);
+			name = Checkpoint;
+			path = source;
+			sourceTree = "<group>";
+		};
+		43BEFA421A8A6512008E2156 /* DLRCheckpointNavigationControllerExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				43BEFA691A8A65F3008E2156 /* Source */,
+				43BEFA6A1A8A65FF008E2156 /* Resources */,
+				43BEFA431A8A6512008E2156 /* Supporting Files */,
+			);
+			path = DLRCheckpointNavigationControllerExampleApp;
+			sourceTree = "<group>";
+		};
+		43BEFA431A8A6512008E2156 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43BEFA441A8A6512008E2156 /* Info.plist */,
+				43BEFA451A8A6512008E2156 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43BEFA691A8A65F3008E2156 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				43BEFA471A8A6512008E2156 /* AppDelegate.h */,
+				43BEFA481A8A6512008E2156 /* AppDelegate.m */,
+				43BEFA6B1A8A7AF6008E2156 /* ViewController.h */,
+				43BEFA6C1A8A7AF6008E2156 /* ViewController.m */,
+			);
+			name = Source;
+			path = source;
+			sourceTree = "<group>";
+		};
+		43BEFA6A1A8A65FF008E2156 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43BEFA4D1A8A6512008E2156 /* Main.storyboard */,
+				43BEFA501A8A6512008E2156 /* Images.xcassets */,
+				43BEFA521A8A6512008E2156 /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		439373301A851E3900A552D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439373391A851E3900A552D5 /* DLRCheckpointNavigationController.h in Headers */,
+				4393738F1A8522C800A552D5 /* DLRCheckpointPushSegue.h in Headers */,
+				4393738D1A8522C800A552D5 /* DLRCheckpointNavigationController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		439373321A851E3900A552D5 /* DLRCheckpointNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439373491A851E3900A552D5 /* Build configuration list for PBXNativeTarget "DLRCheckpointNavigationController" */;
+			buildPhases = (
+				4393732E1A851E3900A552D5 /* Sources */,
+				4393732F1A851E3900A552D5 /* Frameworks */,
+				439373301A851E3900A552D5 /* Headers */,
+				439373311A851E3900A552D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLRCheckpointNavigationController;
+			productName = DLRCheckpointNavigationController;
+			productReference = 439373331A851E3900A552D5 /* DLRCheckpointNavigationController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4393733D1A851E3900A552D5 /* DLRCheckpointNavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4393734C1A851E3900A552D5 /* Build configuration list for PBXNativeTarget "DLRCheckpointNavigationControllerTests" */;
+			buildPhases = (
+				4393733A1A851E3900A552D5 /* Sources */,
+				4393733B1A851E3900A552D5 /* Frameworks */,
+				4393733C1A851E3900A552D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				439373411A851E3900A552D5 /* PBXTargetDependency */,
+				43BEFA681A8A653F008E2156 /* PBXTargetDependency */,
+			);
+			name = DLRCheckpointNavigationControllerTests;
+			productName = DLRCheckpointNavigationControllerTests;
+			productReference = 4393733E1A851E3900A552D5 /* DLRCheckpointNavigationControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43BEFA401A8A6512008E2156 /* DLRCheckpointNavigationControllerExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43BEFA651A8A6512008E2156 /* Build configuration list for PBXNativeTarget "DLRCheckpointNavigationControllerExampleApp" */;
+			buildPhases = (
+				43BEFA3D1A8A6512008E2156 /* Sources */,
+				43BEFA3E1A8A6512008E2156 /* Frameworks */,
+				43BEFA3F1A8A6512008E2156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLRCheckpointNavigationControllerExampleApp;
+			productName = DLRCheckpointNavigationControllerExampleApp;
+			productReference = 43BEFA411A8A6512008E2156 /* DLRCheckpointNavigationControllerExampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4393732A1A851E3900A552D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Detroit Labs, LLC";
+				TargetAttributes = {
+					439373321A851E3900A552D5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4393733D1A851E3900A552D5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 43BEFA401A8A6512008E2156;
+					};
+					43BEFA401A8A6512008E2156 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 4393732D1A851E3900A552D5 /* Build configuration list for PBXProject "DLRCheckpointNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 439373291A851E3900A552D5;
+			productRefGroup = 439373341A851E3900A552D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				439373321A851E3900A552D5 /* DLRCheckpointNavigationController */,
+				4393733D1A851E3900A552D5 /* DLRCheckpointNavigationControllerTests */,
+				43BEFA401A8A6512008E2156 /* DLRCheckpointNavigationControllerExampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		439373311A851E3900A552D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4393733C1A851E3900A552D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BEFA3F1A8A6512008E2156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BEFA4F1A8A6512008E2156 /* Main.storyboard in Resources */,
+				43BEFA541A8A6512008E2156 /* LaunchScreen.xib in Resources */,
+				43BEFA511A8A6512008E2156 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4393732E1A851E3900A552D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439373901A8522C800A552D5 /* DLRCheckpointPushSegue.m in Sources */,
+				4393738E1A8522C800A552D5 /* DLRCheckpointNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4393733A1A851E3900A552D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439373861A8522A600A552D5 /* DLRCheckpointNavigationControllerTests.m in Sources */,
+				439373871A8522A600A552D5 /* DLRCheckpointPushSegueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BEFA3D1A8A6512008E2156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BEFA6D1A8A7AF6008E2156 /* ViewController.m in Sources */,
+				43BEFA491A8A6512008E2156 /* AppDelegate.m in Sources */,
+				43BEFA461A8A6512008E2156 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		439373411A851E3900A552D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 439373321A851E3900A552D5 /* DLRCheckpointNavigationController */;
+			targetProxy = 439373401A851E3900A552D5 /* PBXContainerItemProxy */;
+		};
+		43BEFA681A8A653F008E2156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43BEFA401A8A6512008E2156 /* DLRCheckpointNavigationControllerExampleApp */;
+			targetProxy = 43BEFA671A8A653F008E2156 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43BEFA4D1A8A6512008E2156 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43BEFA4E1A8A6512008E2156 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43BEFA521A8A6512008E2156 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43BEFA531A8A6512008E2156 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		439373471A851E3900A552D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		439373481A851E3900A552D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4393734A1A851E3900A552D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DLRCheckpointNavigationController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4393734B1A851E3900A552D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DLRCheckpointNavigationController/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4393734D1A851E3900A552D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DLRCheckpointNavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLRCheckpointNavigationControllerExampleApp.app/DLRCheckpointNavigationControllerExampleApp";
+			};
+			name = Debug;
+		};
+		4393734E1A851E3900A552D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DLRCheckpointNavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLRCheckpointNavigationControllerExampleApp.app/DLRCheckpointNavigationControllerExampleApp";
+			};
+			name = Release;
+		};
+		43BEFA611A8A6512008E2156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DLRCheckpointNavigationControllerExampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43BEFA621A8A6512008E2156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DLRCheckpointNavigationControllerExampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4393732D1A851E3900A552D5 /* Build configuration list for PBXProject "DLRCheckpointNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439373471A851E3900A552D5 /* Debug */,
+				439373481A851E3900A552D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		439373491A851E3900A552D5 /* Build configuration list for PBXNativeTarget "DLRCheckpointNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4393734A1A851E3900A552D5 /* Debug */,
+				4393734B1A851E3900A552D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4393734C1A851E3900A552D5 /* Build configuration list for PBXNativeTarget "DLRCheckpointNavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4393734D1A851E3900A552D5 /* Debug */,
+				4393734E1A851E3900A552D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43BEFA651A8A6512008E2156 /* Build configuration list for PBXNativeTarget "DLRCheckpointNavigationControllerExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BEFA611A8A6512008E2156 /* Debug */,
+				43BEFA621A8A6512008E2156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4393732A1A851E3900A552D5 /* Project object */;
+}

@@ -1,0 +1,7 @@
+# http://www.objc.io/issue-6/travis-ci.html
+
+language: objective-c
+
+script:
+  # TODO Add 'test' flag here once tests work on travis-ci server.
+  - xctool build -project DLRCheckpointNavigationController.xcodeproj -scheme DLRCheckpointNavigationControllerExampleApp -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
