@@ -1,6 +1,6 @@
 # DLRCheckpointNavigationController
 
-[![CI Status](http://img.shields.io/travis/detroit-labs/DLRCheckpointNavigationController.svg?style=flat)](https://travis-ci.org/detroit-labs/DLRCheckpointNavigationController)
+[![CI Status](http://img.shields.io/travis/detroit-labs/dlr-checkpoint-navigation-controller-ios.svg?style=flat)](https://travis-ci.org/detroit-labs/dlr-checkpoint-navigation-controller-ios)
 [![Version](https://img.shields.io/cocoapods/v/DLRCheckpointNavigationController.svg?style=flat)](http://cocoadocs.org/docsets/DLRCheckpointNavigationController)
 [![License](https://img.shields.io/cocoapods/l/DLRCheckpointNavigationController.svg?style=flat)](http://cocoadocs.org/docsets/DLRCheckpointNavigationController)
 [![Platform](https://img.shields.io/cocoapods/p/DLRCheckpointNavigationController.svg?style=flat)](http://cocoadocs.org/docsets/DLRCheckpointNavigationController)
@@ -24,3 +24,13 @@ DLRCheckpointNavigationController is available under the MIT license. See the LI
 
 ## Examples
 
+##### UINavigationController identity inspector settings
+![UIColor](README/Images/navigation-controller.png)
+
+##### Storyboard Segue attributes inspector settings
+Standard Push Segue | Checkpoint Push Segue
+------------------- | ---------------------
+![UIColor](README/Images/checkpoint-push-segue.png) | ![UIColor](README/Images/push-segue.png)
+
+##### Recording of iOS device
+![UIColor](README/Images/example.gif)
