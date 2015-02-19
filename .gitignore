@@ -11,6 +11,8 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
 xcuserdata
 *.xccheckout
 profile
@@ -29,5 +31,4 @@ DerivedData
 # Note: if you ignore the Pods directory, make sure to uncomment
 # `pod install` in .travis.yml
 #
-# Pods/
-
+Pods/
