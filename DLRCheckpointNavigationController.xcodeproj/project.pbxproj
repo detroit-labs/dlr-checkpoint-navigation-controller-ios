@@ -636,6 +636,7 @@
 				43BEFA621A8A6512008E2156 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
